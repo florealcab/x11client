@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 MAINTAINER Aaron Madlon-Kay <aaron@madlon-kay.com>
 
 # first create user and group for all the X Window stuff
