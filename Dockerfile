@@ -1,5 +1,5 @@
-FROM debian:buster
-MAINTAINER Aaron Madlon-Kay <aaron@madlon-kay.com>
+FROM debian:bullseye
+MAINTAINER Floréal Cabanettes <contact@alypie.fr>
 
 # first create user and group for all the X Window stuff
 # required to do this first so we have consistent uid/gid between server and client container
